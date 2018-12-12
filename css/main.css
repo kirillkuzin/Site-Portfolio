@@ -1,0 +1,104 @@
+html, body {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header {
+    background: #343c4e;
+    background-image: url("../img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100vh;
+    
+    color: #FFF;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_title {
+    font-size: 56px;
+    margin-bottom: 30px;
+    margin-top: -50px;
+    font-family: 'Merriweather', serif;
+}
+
+.header_description {
+    font-size: 28px;
+}
+
+.header_contacts_icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.header_contact_icon {
+    margin-right: 15px;
+    font-size: 40px;
+}
+
+.header_contact_icon a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header_contact_icon a:hover {
+    color: #FF8C00;
+}
+
+.header_down_icon {
+    font-size: 48px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+
+.about_me {
+    padding-top: 100px;
+}
+
+.text {
+    text-align: center;
+}
+
+.portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title {
+    font-size: 60px;
+    margin-bottom: 60px;
+    font-family: 'Merriweather', serif;
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.portfolio_img {
+    margin-bottom: 17px;
+}
+
+.portfolio_title {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.portfolio_title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.portfolio_title a:hover {
+    text-decoration: none;
+    color: #FF8C00;
+}
